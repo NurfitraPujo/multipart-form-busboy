@@ -1,0 +1,19 @@
+{
+  "name": "multipart-form-busboy",
+  "version": "1.0.0",
+  "description": "Simple multipart formhandling with Express & Busboy",
+  "main": "src/index.js",
+  "repository": "git@github.com:NurfitraPujo/multipart-form-busboy.git",
+  "author": "Nurfitra Pujo Santiko <nurfitrapujo.19@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "nodemon --config \"./nodemon.json\"/"
+  },
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "busboy": "^0.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
